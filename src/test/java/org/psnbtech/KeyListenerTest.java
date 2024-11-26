@@ -32,7 +32,7 @@ class KeyListenerTest {
 			game.isNewGame = isNewGame;
 			game.isGameOver = isGameOver;
 			
-			robot.setAutoDelay(200);
+			robot.setAutoDelay(400);
 			robot.keyPress(KeyEvent.VK_ENTER);
 			
 			robot.keyRelease(KeyEvent.VK_ENTER);
@@ -71,7 +71,7 @@ class KeyListenerTest {
 			game.logicTimer.isPaused = initPaused;
 			game.isNewGame = false;
 			game.isGameOver = initGameOver;
-			robot.setAutoDelay(200);
+			robot.setAutoDelay(400);
 			robot.keyPress(KeyEvent.VK_P);
 			
 			robot.keyRelease(KeyEvent.VK_P);

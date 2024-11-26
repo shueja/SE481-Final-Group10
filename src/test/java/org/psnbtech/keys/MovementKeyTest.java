@@ -42,7 +42,7 @@ abstract class MovementKeyTest {
 			game.directions.addAll(initDirections);
 			int size = game.directions.size();
 			Direction previousLast = game.directions.peekLast();
-			robot.setAutoDelay(200);
+			robot.setAutoDelay(400);
 			robot.keyPress(key);
 			
 			robot.keyRelease(key);
