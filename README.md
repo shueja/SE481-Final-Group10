@@ -1,7 +1,9 @@
-# junit5-jupiter-starter-maven
+# Group 10 SE481 CI Case Study
 
-The `junit5-jupiter-starter-maven` project demonstrates how to execute JUnit Jupiter
-tests using Maven.
+Maven setup based on https://github.com/junit-team/junit5-samples/tree/r5.11.3/junit5-jupiter-starter-maven
+Source code based on SnakeGame
+Tests by Jeremiah Shue and Sawyer Sieja in SE461
 
-Please note that this project uses the [Maven Wrapper](https://github.com/apache/maven-wrapper).
-Thus, to ensure that the correct version of Maven is used, invoke `mvnw` instead of `mvn`.
+To run tests:
+from project root, `./mvnw test`
+
