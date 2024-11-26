@@ -36,7 +36,6 @@ class KeyListenerTest {
 			robot.waitForIdle();
 			robot.setAutoDelay(400);
 			// robot.keyPress(KeyEvent.VK_ENTER);
-			
 			// robot.keyRelease(KeyEvent.VK_ENTER);
 			game.repaint();
 			assertEquals(expectedReset ? 0 : 1, game.score);
