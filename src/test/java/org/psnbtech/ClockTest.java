@@ -26,7 +26,7 @@ class ClockTest {
 
 	@Test
 	void testConstructor() {
-		assertEquals(clock.isPaused, false);
+		assertEquals(clock.isPaused, true);
 		assertEquals(clock.elapsedCycles,0);
 		assertEquals(clock.excessCycles,0);
 		assertEquals(clock.millisPerCycle, (1.0f / cyclesPerSecond) * 1000);
